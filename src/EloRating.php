@@ -1,5 +1,5 @@
 <?php
-namespace EloRating\EloRating;
+namespace EloRating;
 
 class EloRating
 {
