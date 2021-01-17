@@ -1,0 +1,21 @@
+{
+    "name": "elijahcruz/elo-rating",
+    "description": "Generate ELO ratings for each of your players.",
+    "type": "library",
+    "keywords": ["chess"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elijah Cruz",
+            "email": "elijah@ecwebservices.net"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EloRating\\": "src/"
+        }
+    }
+}
