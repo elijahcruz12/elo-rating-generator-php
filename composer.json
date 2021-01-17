@@ -17,5 +17,13 @@
         "psr-4": {
             "EloRating\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EloRating\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
