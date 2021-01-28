@@ -1,5 +1,5 @@
 {
-    "name": "elijahcruz/elo-rating",
+    "name": "elorating/elorating",
     "description": "Generate ELO ratings for each of your players.",
     "type": "library",
     "keywords": ["chess"],
