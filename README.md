@@ -11,7 +11,7 @@ PLEASE NOTE THAT VERSION TWO IS NOT COMPATIBLE WITH VERSION ONE.
 The preferred way to install this extension is through [Composer](http://getcomposer.org/).
 
 ```
-composer require elijahcruz/elo-rating "dev-master"
+composer require elorating/elorating
 ```
 
 
