@@ -29,9 +29,9 @@ $player2 = new Player(800);
 Next create a match.
 
 ```php
-use EloRating\Match;
+use EloRating\Game;
 
-$match = new Match($player1, $player2);
+$match = new Game($player1, $player2);
 ```
 
 If you chose to set the K for the ELO Score, you can, however the default K is 32:

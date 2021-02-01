@@ -4,7 +4,7 @@
 namespace EloRating\Tests;
 
 
-use EloRating\Match;
+use EloRating\Game;
 use EloRating\Player;
 use PHPUnit\Framework\TestCase;
 
@@ -12,7 +12,7 @@ class PlayerTest extends TestCase
 {
     
     /**
-     * Check if Match Loads
+     * Check if Game Loads
      * @test
      */
     public function checkIfClassLoads(){

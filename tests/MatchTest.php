@@ -4,7 +4,7 @@
 namespace EloRating\Tests;
 
 
-use EloRating\Match;
+use EloRating\Game;
 use EloRating\Player;
 use PHPUnit\Framework\TestCase;
 
@@ -18,7 +18,7 @@ class MatchTest extends TestCase
         $playerOne = new Player(1400);
         $playerTwo = new Player(1400);
         
-        $match =  new Match($playerOne, $playerTwo);
+        $match =  new Game($playerOne, $playerTwo);
         
         $this->assertEquals($match->getPlayer1(), $match->getPlayer2());
     }
@@ -30,7 +30,7 @@ class MatchTest extends TestCase
         $playerOne = new Player(1400);
         $playerTwo = new Player(1400);
     
-        $match =  new Match($playerOne, $playerTwo);
+        $match =  new Game($playerOne, $playerTwo);
         
         $match->setK(32);
         
